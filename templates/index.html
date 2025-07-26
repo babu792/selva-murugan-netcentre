@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <title>Selva Murugan Browsing Centre</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="/static/logo.png" class="logo" alt="Murugan Logo">
+        <h1>செல்வ முருகன் ப்ரௌசிங் சென்டர்</h1>
+        <form method="POST" enctype="multipart/form-data">
+            <label>பெயர்:</label>
+            <input type="text" name="name" required>
+
+            <label>மொபைல் எண்:</label>
+            <input type="tel" name="phone" required>
+
+            <label>சேவையைத் தேர்ந்தெடுக்கவும்:</label>
+            <select name="service">
+                <option value="PAN Card Apply">PAN Card Apply</option>
+                <option value="Aadhar Correction">Aadhar Correction</option>
+                <option value="Passport Services">Passport Services</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label>ஆவணங்களை பதிவேற்றவும்:</label>
+            <input type="file" name="document" required>
+
+            <button type="submit">வாட்ஸ்அப்பில் அனுப்பு</button>
+        </form>
+    </div>
+</body>
+  </html>
